@@ -20,22 +20,22 @@ function Home() {
       uri: "/demo.pdf", // for local file
     },
     {
-      // uri: "url", // for remote file
-      uri: "/demo.pptx", // for local file
+      uri: "https://github.com/kartikxisk/docx-xlsx-pptx-pdf-viewer-nextjs-and-reactjs/files/11781031/demo.docx", // for remote file
+      // uri: "/demo.pptx", // for local file
     },
     {
-      // uri: "url", // for remote file
-      uri: "/demo.docx", // for local file
+      uri: "https://github.com/kartikxisk/docx-xlsx-pptx-pdf-viewer-nextjs-and-reactjs/files/11781036/demo.pptx", // for remote file
+      // uri: "/demo.docx", // for local file
     },
     {
-      // uri: "url", // for remote file
-      uri: "/demo.xlsx", // for local file
+      uri: "https://github.com/kartikxisk/docx-xlsx-pptx-pdf-viewer-nextjs-and-reactjs/files/11781037/demo.xlsx", // for remote file
+      // uri: "/demo.xlsx", // for local file
     },
   ];
   return (
     <div>
       <DocViewer
-        // prefetchMethod="GET" // for remote fetch
+        prefetchMethod="GET" // for remote fetch
         documents={docs}
         pluginRenderers={DocViewerRenderers}
         style={{ height: "100vh" }} //custom style
