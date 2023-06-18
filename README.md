@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Render docx, xlsx, pptx & pdf in nextjs and reactjs. This is simple demonstration for render docx, xlsx, pptx & pdf in nextjs and reactjs.
 
 ## Getting Started
 
