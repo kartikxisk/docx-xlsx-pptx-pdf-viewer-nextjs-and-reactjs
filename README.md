@@ -52,14 +52,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 You can edit the main page by modifying [`pages/index.js`](pages/index.js). The page auto-updates as you save changes.
 
-### API Routes
-
-API routes are located in the [`pages/api`](pages/api) directory. For example:
-
-- [`pages/api/hello.js`](pages/api/hello.js): Accessible at [http://localhost:3000/api/hello](http://localhost:3000/api/hello).
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
 ## Deployment
 
 Deploy your application easily using [Vercel](https://vercel.com/). Follow the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for detailed instructions.
